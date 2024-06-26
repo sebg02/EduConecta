@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "subject": "Matemáticas",
+    "teacher": "Profesor A",
+    "availability": "Lunes y Miércoles 10:00 - 12:00",
+    "price": 20000
+  },
+  {
+    "id": 2,
+    "subject": "Inglés",
+    "teacher": "Profesor B",
+    "availability": "Martes y Jueves 14:00 - 16:00",
+    "price": 25000
+  },
+  {
+    "id": 3,
+    "subject": "Ciencias",
+    "teacher": "Profesor C",
+    "availability": "Viernes 09:00 - 11:00",  
+    "price": 30000
+  }
+]
+  
