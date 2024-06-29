@@ -1,21 +1,22 @@
 import { Link } from "react-router-dom";
+import UserHeader from "../User/UserHeader.jsx";
+import TeacherSubjects from "./TeacherSubjects.jsx";
+import TutoringSessions from "./TutoringSessions.jsx";
 
 function TeacherHome() {
   return (
     <>
-      <div className="teacherhome">
-        <header>
-          <h1 className="">EduConecta</h1>
-          <Link to="/EditProfile">
-            <button>Editar perfil</button>
-          </Link>
-        </header>
-
-        <main>
+      <div>
+        <UserHeader />
+        <main className="container my-4">
           <h2>
             Hola, <b>Teacher</b>
           </h2>
-          <input type="text" placeholder="Buscar clases" />
+          <h3>Mis materias</h3>
+          <TeacherSubjects></TeacherSubjects>
+          <hr />
+          <h4>Tutorias</h4>
+          <TutoringSessions></TutoringSessions>
         </main>
       </div>
     </>

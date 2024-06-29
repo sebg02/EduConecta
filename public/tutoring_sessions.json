@@ -1,0 +1,17 @@
+[
+    {
+      "id": 1,
+      "subject": "Matemáticas",
+      "date_time": "2024-07-01 10:00",
+      "student": "Juan Pérez",
+      "status": "confirmed"
+    },
+    {
+      "id": 2,
+      "subject": "Física",
+      "date_time": "2024-07-02 15:00",
+      "student": "María López",
+      "status": "pending"
+    }
+  ]
+  
