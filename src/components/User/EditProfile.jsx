@@ -30,6 +30,12 @@ function EditProfile() {
               </label>
               <input type="text" id="ubicacion" name="ubicacion" className="form-control" required />
             </div>
+            <div className="mb-3">
+              <label htmlFor="bio" className="form-label">
+                Bio:
+              </label>
+              <textarea type="text" id="bio" name="bio" className="form-control" required />
+            </div>
             <div className="text-center">
               <input type="submit" value="Guardar" className="btn btn-success bg-custom-color" />
             </div>

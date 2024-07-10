@@ -7,6 +7,7 @@ import EditProfile from "./components/User/EditProfile.jsx";
 import TeacherHome from "./components/Teacher/TeacherHome.jsx";
 import { Route, Routes } from "react-router-dom";
 import CreateSubject from "./components/Teacher/CreateSubject.jsx";
+import UserBio from "./components/User/UserBio.jsx";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/EditProfile" element={<EditProfile></EditProfile>}></Route>
         <Route path="/TeacherHome" element={<TeacherHome></TeacherHome>}></Route>
         <Route path="/CreateSubject" element={<CreateSubject></CreateSubject>}></Route>
+        <Route path="/UserBio" element={<UserBio></UserBio>}></Route>
       </Routes>
     </>
   );
